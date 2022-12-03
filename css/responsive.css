@@ -1,0 +1,428 @@
+/* RESPONSIVE */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: end;
+        /* margin-top:-33px; */
+    }
+
+    @media (min-width: 1300px) {
+        .about-show-content h2 {
+            line-height: 2;
+        }
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 20px;
+
+    }
+
+    .audition-contact {
+        margin-top: 300px;
+    }
+
+    /* .navbar-expand-lg .navbar-nav{
+      margin-top:-100px;
+    } */
+}
+
+@media (max-width: 1300px) {
+    .number {
+        font-size: 13px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .arrow-box {
+        bottom: 39%;
+        right: 17%;
+    }
+
+    .f-50 {
+        font-size: 40px;
+    }
+
+    .f-36 {
+        font-size: 32px;
+    }
+
+    .f-24 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sponsorship-level ul li {
+        font-size: 15px;
+    }
+
+    .f-24 {
+        font-size: 19px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .flex-lg {
+        display: flex;
+        align-items: center;
+    }
+
+    #countdown li span {
+        font-size: 30px;
+    }
+
+    .banner-text {
+        font-size: 20px;
+        margin-top: 245px;
+    }
+
+    .carousel-control-prev {
+        right: 7%;
+    }
+
+    .donate {
+
+        font-size: 13px;
+    }
+
+    .toggler {
+        visibility: visible;
+    }
+
+    .body_main {
+        transition: margin-left .5s;
+
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #102c4c;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+
+    .sidenav a {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #E95417;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .arrow-box {
+        position: absolute;
+        bottom: 40%;
+
+    }
+
+    .contact-coordinator {
+        width: 100%;
+    }
+
+    .contact-coordinator {
+        position: initial;
+        width: 100%;
+        padding-left: 0px;
+
+    }
+
+    .question {
+        margin-left: 10px;
+    }
+
+    .cordinator-details .number {
+        font-size: 13px;
+    }
+
+    .cordinator-details h2 {
+        font-size: 20px;
+    }
+
+    .sign-up-btn {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .sign-up-btn img {
+        width: auto;
+    }
+
+    #countdown li {
+        padding: 0px 5px;
+    }
+
+    .show-condition {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .show-condition img {
+        margin-bottom: 10px;
+    }
+
+    .border-r {
+        display: none;
+    }
+
+    .margin-align {
+        margin-top: 0px;
+    }
+
+    .about-show-content h2 {
+        line-height: 35px;
+    }
+
+    .f-50 {
+        font-size: 30px;
+    }
+
+    .question {
+        margin-bottom: 30px;
+    }
+
+    .contact-map {
+        height: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .f-50 {
+        font-size: 30px;
+    }
+
+    .f-24 {
+        font-size: 15px;
+    }
+
+    .f-36 {
+        font-size: 24px;
+    }
+
+    .f-28 {
+        font-size: 20px;
+    }
+
+    .p-50 {
+        padding-left: 50px !important;
+    }
+
+    .img-center {
+        text-align: center;
+    }
+
+    .about-event p {
+        font-size: 14px;
+    }
+
+    .border-right {
+
+        border-right: 1px solid #ffffff;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-volunteering ul li {
+        width: 100%;
+
+    }
+
+    .event-volunteering ul {
+        margin-right: 30px;
+    }
+
+    .talent-img {
+        width: 100%;
+    }
+
+    .event {
+        padding: 20px;
+    }
+
+    .responsive {
+        margin: 0px 50px;
+    }
+
+    .carousel-control-prev {
+        right: 10%;
+    }
+
+    .buy,
+    .auditions {
+        width: 170px;
+    }
+
+    .sidenav a {
+        font-size: 22px;
+    }
+
+    .arrow-box {
+        position: absolute;
+        bottom: 27%;
+
+    }
+
+    .event h1 {
+        text-align: center;
+    }
+
+    .p-60 {
+        padding-top: 20px;
+    }
+
+    .about-show-content h2 {
+        line-height: 40px;
+    }
+
+    .about-show-content {
+        position: initial;
+        width: 100%;
+    }
+
+    .about-head {
+        line-height: 40px;
+    }
+
+    .about-event p {
+        line-height: 25px;
+    }
+
+    .audition-banner-text h1 {
+        font-size: 40px;
+    }
+
+    .audition-banner-text h2 {
+        font-size: 30px;
+    }
+
+    .audition-banner-text p {
+        font-size: 18px;
+    }
+
+    .contact-coordinator h1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .justify {
+        justify-content: center;
+    }
+
+    .btn-bg-1 {
+        margin-bottom: 20px;
+    }
+
+    .btn-bg-3 {
+        margin-bottom: 20px;
+    }
+
+    .f-73 {
+        font-size: 40px;
+    }
+
+    .contact-us .nav-pills .nav-link {
+        font-size: 10px;
+    }
+
+    .timeline::after {
+        display: none;
+    }
+
+    .timeline-b::before {
+        display: none;
+    }
+
+    .timeline img {
+        margin-left: 0px !important;
+    }
+
+    .timeline {
+        justify-content: center;
+    }
+
+    .timeline-b img {
+        margin-right: 0px !important;
+    }
+
+    .timeline-b {
+        justify-content: center;
+    }
+
+    .contact-map {
+        height: 400px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .sponsorship-level .card ul {
+        height: 110px;
+    }
+
+    .sponsorship-levels ul li {
+        font-size: 15px;
+    }
+
+    .rounded {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shows .card-body h5 {
+        font-size: 15px;
+    }
+
+    .details {
+        font-size: 18px;
+    }
+
+    /* .buy, .auditions {
+      width:125px;
+      height: 40px;
+    } */
+
+
+}
+
+@media (max-width: 576px) {
+    .talent-img {
+        width: 100%;
+    }
+
+    .contact-coordinator .d-flex {
+        justify-content: center;
+    }
+}
